@@ -1,0 +1,22 @@
+.card-holder{
+    display: flex;
+    margin:10px auto;
+    height:max-content;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    width: max-content;
+    margin-bottom: 40px;
+   
+}
+@media  (max-width:720px) {
+   .card-holder{
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    height: max-content;
+
+   } 
+    
+}

@@ -1,0 +1,109 @@
+/* .a-cont{
+   background-color: red;
+} */
+.top-bar-about{
+    width: 100%;
+    height: 90px;
+   
+   
+}
+.topbar h1{
+   
+ max-width: 80%;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: 20px auto;
+    
+}
+.topbar{height: 150px;
+margin-top: 0px;
+background-color: teal;
+
+}
+.p-holder{margin: 0px auto;
+padding: 0 20px;
+max-width: 80%;
+
+
+}
+.p-holder2{
+    margin: 0px auto;
+padding: 0px;
+max-width: 80%;
+}
+.p-holder p{
+    font-size: 20px;
+max-width: 100%;
+margin-bottom: 20px;
+}
+.p-holder2 p{
+    font-size: 20px;
+max-width: 100%;
+margin-bottom: 10px;
+}
+
+.accordin-holder{
+margin: 20px auto;
+    max-width: 80%;
+
+
+}
+
+
+.text-base-custom {
+    font-size: 14px;
+  }
+#p-holderid p{
+        font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.mapholder{
+    max-width: 900px;
+    height: 400px;
+    margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 40px;
+
+}
+.iframeholder{
+    width: 100%;
+    height: 100%;
+}
+.ctmp-cont{
+        margin: 0 auto;
+padding: 0px;
+       max-width: 900px;
+   gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+  
+}
+.contact-fm{
+    width: 500px;padding: 20px;
+   
+
+}
+
+
+@media (max-width:720px) {
+    .topbar h1{
+   
+ max-width: 80%;
+    font-size: 25px;
+    text-decoration: underline;
+    margin: 20px auto;
+    
+}
+.topbar{height: 90px;
+
+
+
+}
+    
+.contact-detais{display: none;}
+}

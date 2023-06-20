@@ -1,0 +1,51 @@
+.Card {
+  height:max-content;
+  width: 300px;
+  border: 3px solid #f3f4f5;
+  margin: 10px 20px;
+  padding: 0px;
+
+
+}
+
+.Card  .img-cont{
+display: grid;
+place-items: center;}
+
+
+.Card p {
+  align-items: center;
+  width: 100%;
+ 
+}
+.service_title{
+height: 75px;
+
+text-align: center;
+
+}
+.service_intro{
+  height: 260px;
+ 
+  text-align: center;
+  margin-bottom: 15px;
+}
+  
+.service_cta {
+ height: max-content;
+ margin:0 0 20px 0;
+}
+.service_cta  p {
+
+text-align: center;
+ left:auto;
+}
+
+
+@media (max-width: 720px) {
+  .Card {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+}

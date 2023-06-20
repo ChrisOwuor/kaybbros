@@ -1,0 +1,13 @@
+.left-div{
+display: grid;
+    width: 100%;
+    height:100%;
+    place-items: center;
+}
+.left-div img{width: 160px;
+    height: 160px;
+}
+.grid-cont{
+    border-bottom: 1px solid black;
+  
+}

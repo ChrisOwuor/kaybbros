@@ -83,7 +83,7 @@ const Carousel = ({ images }) => {
       </div>
       <div className=" carousel__text">
         
-        <p>Long Live Kaybros</p>
+        <p>"Life is Like Accounting Everything Must Be Balanced"</p>
       </div>
       <button
         className="carousel__button carousel__button--prev"

@@ -51,16 +51,31 @@
   right: 16px;
 }
 .carousel__text{
-    top: 0px;
+    top: 50px;
     position: absolute;
+    left: 100px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px  10px;
     
 }
 
 
 .carousel__text p {
 
- color: rgb(29, 164, 124);
+ color: rgb(244, 243, 243);
  font-size: 40px;
  font-weight: 600;
 
+}
+@media (max-width:720px) {
+  .carousel__text p {
+
+ color: rgb(244, 243, 243);
+ font-size: 20px;
+ font-weight: 300;
+
+}
+
+  
 }

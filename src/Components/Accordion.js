@@ -84,7 +84,7 @@ const Grid = (props) => {
 
 const App = () => {
   const ceoheading = `CPA- Dominic A. Midigo`;
-  const womanheading = `Reinhard Ranji`;
+  const womanheading = `Nancy Opiyo`;
   
   
   

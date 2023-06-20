@@ -21,7 +21,7 @@ const Footer = () => {
       text-center pt-2 text-gray-400 text-sm pb-8"
       >
         <span>© 2023 All rights reserved. </span>
-        <span>© Chrispine Owuor</span>
+        {/* <span>© Chrispine Owuor</span> */}
         <span>Terms · Privacy Policy</span>
       </div>
     </footer>

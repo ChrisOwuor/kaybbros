@@ -14,14 +14,14 @@ import HumanResourceManagement from "./Components/HumanResourceMgt";
 import Navbarmenu from "./Components/menu/Navbarmenu";
 import Footer from "./Components/Footer/Footer";
 import BusinessValidation from "./Components/BusinessValidation";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <div>
       <Router>
-       
-          <Navbarmenu />
-
+        <Navbarmenu />
+        <ScrollToTop>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/About" component={About} />
@@ -34,8 +34,8 @@ function App() {
             <Route path="/Services" component={Services} />
             <Route path="/Audit And Assurance" component={AuditAndAssurance} />
           </Switch>
-          <Footer />
-       
+        </ScrollToTop>
+        <Footer />
       </Router>
     </div>
   );

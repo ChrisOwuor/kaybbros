@@ -1,7 +1,10 @@
 // import "./Form.css"
+// import axios from "axios";
+import emailjs from "@emailjs/browser";
 
 
 import React, { useState } from "react";
+import { useRef } from "react";
 
 const Form = () => {
   const [selectedOption, setSelectedOption] = useState("");
@@ -11,25 +14,43 @@ const Form = () => {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e) => {
+
+   const form1 = useRef();
+
+
+  
+  const sendEmail = (e) => {
     e.preventDefault();
-   
-    setSelectedOption("");
-    setName("");
-    setMessage("");
-    setCompany("");
-    setPhone("");
-      setEmail("");
 
-
-      console.log(message)
-      
+    emailjs
+      .sendForm(
+        "service_dg9a6qg",
+        "template_vhcc1kn",
+        form1.current,
+        "-Lv8axP2tBiQdfQs1"
+      )
+      .then(
+        (result) => {
+          alert("message sent succefully " + result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    
+    setSelectedOption('')
+    setEmail('')
+    setPhone('')
+    setCompany('')
+    setMessage('')
+    setName('')
   };
 
   return (
     <form
+      ref={form1}
       className="w-full mx-auto  shadow-md rounded px-6 py-8"
-      onSubmit={handleSubmit}
+      onSubmit={sendEmail}
       id="cform"
     >
       <div className="mb-4">
@@ -38,15 +59,22 @@ const Form = () => {
         </label>
         <select
           id="option"
+          name='selectedOption'
           className="w-full py-2 px-4 border border-teal-400 rounded focus:outline-none focus:ring-2 focus:ring-teal-400"
           value={selectedOption}
           onChange={(e) => setSelectedOption(e.target.value)}
           required
         >
           <option value="">-- Select --</option>
-          <option value="option1">Google</option>
-          <option value="option2">Friend</option>
-          <option value="option3">Social Media</option>
+          <option name="google" value="Google">
+            Google
+          </option>
+          <option name="Friend" value="Friend">
+            Friend
+          </option>
+          <option name="Social Media" value="Social Media">
+            Social Media
+          </option>
         </select>
       </div>
 
@@ -56,6 +84,7 @@ const Form = () => {
         </label>
         <input
           type="text"
+          name="name"
           id="firstName"
           className="w-full py-2 px-4 border border-teal-400 rounded focus:outline-none focus:ring-2 focus:ring-teal-400"
           value={name}
@@ -69,6 +98,7 @@ const Form = () => {
         </label>
         <input
           type="text"
+          name="email"
           id="firstName"
           className="w-full py-2 px-4 border border-teal-400 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={email}
@@ -83,6 +113,7 @@ const Form = () => {
         <input
           type="text"
           id="firstName"
+          name="phone"
           className="w-full py-2 px-4 border border-teal-400 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
@@ -96,6 +127,7 @@ const Form = () => {
         </label>
         <input
           type="text"
+          name="company"
           id="firstName"
           className="w-full py-2 px-4 border border-teal-400 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={company}
@@ -112,6 +144,7 @@ const Form = () => {
           id="firstName"
           className="w-full py-2 px-4 border  border-teal-400 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={message}
+          name="message"
           onChange={(e) => setMessage(e.target.value)}
           required
           rows={4}
@@ -132,3 +165,6 @@ const Form = () => {
 };
 
 export default Form;
+
+
+

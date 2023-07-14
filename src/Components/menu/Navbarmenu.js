@@ -33,9 +33,9 @@ const Navbarmenu = () => {
   }
 
   return (
-    <div className="header__middle bg-gray-200   border border-gray-300">
+    <div className="header__middle bg-gray-200 m-0 p-0  border border-gray-300">
       <div className="container ">
-        <div className="row">
+        <div className="row m-0 p-0">
           {/* Add Logo  */}
           <div className="header__middle__logo">
             <NavLink exact activeclassname="is-active" to="/">
@@ -168,7 +168,7 @@ const Navbarmenu = () => {
                         to={`/Business Validation`}
                       >
                         {" "}
-                        Business Validation{" "}
+                        Business Valuation{" "}
                       </NavLink>{" "}
                     </li>
                   </ul>

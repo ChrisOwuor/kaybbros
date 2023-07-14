@@ -1,6 +1,6 @@
 // import "./Form.css"
 // import axios from "axios";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 
 import React, { useState } from "react";
@@ -22,21 +22,21 @@ const Form = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_dg9a6qg",
-        "template_vhcc1kn",
-        form1.current,
-        "-Lv8axP2tBiQdfQs1"
-      )
-      .then(
-        (result) => {
-          alert("message sent succefully " + result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm(
+    //     "service_dg9a6qg",
+    //     "template_vhcc1kn",
+    //     form1.current,
+    //     "-Lv8axP2tBiQdfQs1"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       alert("message sent succefully " + result.text);
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
     
     setSelectedOption('')
     setEmail('')

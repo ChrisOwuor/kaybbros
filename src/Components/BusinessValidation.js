@@ -12,7 +12,7 @@ const BusinessValidation = () => {
           {/* this div mainatins height of the topbar */}
         </div>
         <div className="topbar">
-          <h1>Business Validation</h1>
+          <h1>Business Valuation</h1>
         </div>
         <div className="p-holder" id="p-holderid">
           <p className=" font-montserrat  ">{introp}</p>

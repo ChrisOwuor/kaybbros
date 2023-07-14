@@ -42,11 +42,9 @@ const Contact = () => {
               <li className="text-sm">Utalii House 10th Floor room 1020</li>
               <li className="text-sm">P.O. Box 7563-00300</li>
               <li className="text-sm">Nairobi-Kenya</li>
+              <li className="text-sm">+254 722 612401</li>
 
-              <li className="text-sm">+254 715 248882</li>
-              <li className="text-sm">+254700136900</li>
-
-              <li className="text-sm">kaybrosglobalconsulting@gmail.com</li>
+              <li className="text-sm"></li>
             </ol>
           </div>
         </div>

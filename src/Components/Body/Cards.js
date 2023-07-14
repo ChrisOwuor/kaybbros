@@ -2,15 +2,15 @@
 import "./Cards.css";
 
 const heading1 = `Audit And Assurance`;
-const text1 = `It includes Business Valuation,Business registration,Annual returns,Share transfer, Change in directorship. We invest time to ensure that we understand your business; its organizational make-up,culture, strategic direction, performance goals and competitive position.`;
+const text3 = `It includes Business Valuation,Business registration,Annual returns,Share transfer, Change in directorship. We invest time to ensure that we understand your business; its organizational make-up,culture, strategic direction, performance goals and competitive position.`;
 const heading2 = `Human Resource management`;
 const text2 = `It includes Recruitment, Training & Development. As a standard 
 element of recruitment process, each candidate is assessed through a
 competency-based interview and objectivly presented with full interview reports`
 
-const heading3 = `Business Evaluation
+const heading3 = `Business Valuation
 `;
-const text3 = `It Includes Tax consultation, Monthly tax returns, Annual tax returns fillings and Auditing. We ensure the client business remains compliant with statutory bodies such as registrar of companies, Tax Issues, County governments etc.`;
+const text1 = `It Includes Tax consultation, Monthly tax returns, Annual tax returns fillings and Auditing. We ensure the client business remains compliant with statutory bodies such as registrar of companies, Tax Issues, County governments etc.`;
  
 const linkone = `/Human Resource Management`;
  const linktwo = `/Business Validation`;

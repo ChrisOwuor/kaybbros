@@ -109,10 +109,10 @@ He has worked for various leading Organizations among them; Action aid Kenya, Sh
 Management consultants. He is a member of the institute of Certified Public Accountants of 
 Kenya.`;
   const woman = `
-  Nancy Opiyo holds a BBM degree in Bachelor of Commerce. He has over 5 years’
+  Nancy Opiyo holds a BBM degree in Bachelor of Commerce. She has over 5 years’
    experience in Accounting, Finance, Projects Financial management and reporting and HR
    rb Management with various
-  companies. He is a member of the Institute of human resource management of Kenya (HRM). `;
+  companies. She is a member of the Institute of human resource management of Kenya (HRM). `;
   
   
   
@@ -128,57 +128,7 @@ Kenya.`;
           Our Vision is to be the definitive Consultancy firm offering the best
           solutions to all our partners.
         </p>
-        {/* <h1 className="text-12l  mb-3">Our Values</h1>
-        <ol className="ml-10">
-          <li className="list-decimal">
-            <h1 className="text-12l font-bold ">Professionalism</h1>
-            <ul>
-              <li className="list-disc ml-4 ">Integrity.</li>
-              <li className="list-disc  ml-4  ">
-                Adherence to international standards
-              </li>
-            </ul>
-          </li>
-          <li className="list-decimal">
-            <h1 className="text-12l font-bold ">Continuous Learning</h1>
-            <ul>
-              <li className="list-disc ml-4 ">
-                Keeping abreast of developments in our profession
-              </li>
-            </ul>
-          </li>
-          <li className="list-decimal">
-            <h3 className="text-12l font-bold ">Customer Centricity</h3>
-            <ul>
-              <li className="list-disc ml-4  ">Efficiency</li>
-              <li className="list-disc ml-4  ">
-                Strive to understand client needs, deliver quality service, and
-                continuous involvement
-              </li>
-              <li className="list-disc ml-4 ">Involvement</li>{" "}
-              <li className="list-disc ml-4 ">
-                Collegiality – to be friendly and accessible
-              </li>
-            </ul>
-          </li>
-          <li className="list-decimal">
-            <h3 className="text-12l font-bold ">Commitment</h3>
-            <ul>
-              <li className="list-disc ml-4">God Fearing</li>
-              <li className="list-discml-4 ">Ethical conduct</li>
-            </ul>
-          </li>
-
-          <li className="list-decimal">
-            <h3 className="text-12l font-bold "> Innovation</h3>
-            <ul>
-              <li className="list-disc ml-4">
-                Continuously seeking new ways of improving customer service and
-                efficiency
-              </li>
-            </ul>
-          </li>
-        </ol> */}
+       
       </Accordion>
 
       <Accordion title="Mission">

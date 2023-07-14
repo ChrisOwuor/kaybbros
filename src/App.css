@@ -25,7 +25,6 @@ img {
 
 .navBar .logo img {
   float: left;
-  max-height: 120px;
 }
 .is-active {
   color:rgb(247,166,94);
@@ -63,7 +62,7 @@ li {
   position: relative;
   display: block;
   color:rgb(1,99,114);
-  margin: 27px 17px;
+  margin: 5px 17px;
   text-decoration: none;
   cursor: pointer;
  
@@ -80,6 +79,8 @@ li {
   width: 70%;
   display: inline-block;
   /* float: left; */
+  padding: 0;
+  margin: 0;
 }
 .menu-item.menu__qqqitem a{
   margin: 27px 10px;

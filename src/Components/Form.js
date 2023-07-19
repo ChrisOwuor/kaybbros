@@ -65,7 +65,7 @@ const Form = () => {
           onChange={(e) => setSelectedOption(e.target.value)}
           required
         >
-          <option value="">-- Select --</option>
+          <option value="">Select One</option>
           <option name="google" value="Google">
             Google
           </option>
